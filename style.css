@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html{
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: Pretendard, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial,'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	word-break: keep-all;
+	background-color: #f3f4f5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.title{
+	color: black;
+	display: flex;
+	position: fixed;
+	font-family: "seryoung", sans-serif ;
+	font-weight: normal;
+	font-size: 25.5vw;
+	display: inline-block;
+	margin-top: 14vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.5vw;
+	transform: scale(.95, 1);
+}
+
+.menu{
+	position: fixed;
+	top: 1.7rem;
+	right: 2rem;
+	padding-left: 1.6rem;
+	padding-top: .2rem;
+	/*background-color: #ffeb5c;
+	height: 2.2rem;
+	width: 5rem;
+	border-radius: 50rem;
+	border-style: none;*/
+}
+
+/*.menu:hover{
+	background-color: #f44b0f;
+	color: white;
+	}*/
+
+.bar1, .bar2, .bar3{
+	width: 30px;
+	height: 5px;
+	background-color: #f44b0f;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.name{
+	color: #f44b0f;
+}
+
+.explain{
+	display: ;
+	justify-content: center;
+	position: fixed;
+	bottom: 1.2rem;
+	left: 0;
+	right: 0;
+	max-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.wrapper{
+	display: block;
+	position: fixed;
+	max-width: 41vw;
+	bottom: 4.5rem;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+#img{
+	width: 100%;
+}
+
+#img_mobile{
+	display: none;
+}
+
+.rotate{
+	display: none;
+	position: fixed;
+	top: 35rem;
+	right: -2.2rem;
+	transform: rotate(-90deg);
+	background-color: #f44b0f ;
+	color: white;
+	font-size: .9rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	padding-bottom:.5rem;
+	padding-top: .5rem;
+}
+
+.rotate:hover{
+	background-color:  #c8ff00;
+	color: #999999;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+	*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html{
+	font-size: 13px;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: Pretendard, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial,'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	word-break: keep-all;
+	background-color: #f3f4f5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.title{
+	color: black;
+	display: flex;
+	position: fixed;
+	font-family: "seryoung", sans-serif ;
+	font-weight: normal;
+	font-size: 38vw;
+	line-height: 24vw;
+	text-align: center;
+	display: inline-block;
+	margin-top: 16vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 9vw;
+	transform: scale(.95, 1);
+}
+
+.menu{
+	position: fixed;
+	top: 1rem;
+	right: 1.5rem;
+	padding-left: 1.6rem;
+	padding-top: .2rem;
+	/*background-color: #ffeb5c;
+	height: 2.2rem;
+	width: 5rem;
+	border-radius: 50rem;
+	border-style: none;*/
+}
+
+/*.menu:hover{
+	background-color: #f44b0f;
+	color: white;
+	}*/
+
+.bar1, .bar2, .bar3{
+	width: 25px;
+	height: 4.5px;
+	background-color: #f44b0f;
+	margin: 5px 0;
+	transition: 0.4s;
+}
+
+.name{
+	color: #f44b0f;
+}
+
+.explain{
+	display: ;
+	justify-content: center;
+	position: fixed;
+	bottom: 1.2rem;
+	left: 0;
+	right: 0;
+	max-width: 83vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.wrapper{
+	display: block;
+	position: fixed;
+	max-width: 41vw;
+	bottom: 4.5rem;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+#img{
+	display: none;
+	width: 100%;
+}
+
+#img_mobile{
+	width: 78vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	bottom: 7rem;
+	left: 0;
+	right: 0;
+}
+
+.rotate{
+	display: none;
+	position: fixed;
+	top: 35rem;
+	right: -2.2rem;
+	transform: rotate(-90deg);
+	background-color: #f44b0f ;
+	color: white;
+	font-size: .9rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	padding-bottom:.5rem;
+	padding-top: .5rem;
+}
+
+.rotate:hover{
+	background-color:  #c8ff00;
+	color: #999999;
+}
+}

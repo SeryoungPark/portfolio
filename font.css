@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Pretendard;
+  font-weight: 600;
+  font-style: normal;
+  src: url("font/Pretendard-SemiBold.otf") format("opentype"),
+    url("font/Pretendard-SemiBold.woff2") format("woff2"),
+    url("font/Pretendard-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 500;
+  font-style: normal;
+  src: url("font/Pretendard-Medium.otf") format("opentype"),
+    url("font/Pretendard-Medium.woff2") format("woff2"),
+    url("font/Pretendard-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 700;
+  font-style: normal;
+  src: url("font/Pretendard-Bold.otf") format("opentype"),
+    url("font/Pretendard-Bold.woff2") format("woff2"),
+    url("font/Pretendard-Bold.woff") format("woff");
+}
+
+@font-face{
+  font-family: seryoung;
+  font-weight: normal;
+  font-style: normal;
+  src: url("font/seryoung.woff") format("woff"),
+  url("font/seryoung.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: helvetica_now;
+  font-weight: normal;
+  font-weight: normal;
+  src: url("font/Monotype - Helvetica Now Display Bold.otf") format("opentype");
+}
