@@ -252,6 +252,12 @@ a:hover{
 .category{
 	display: none;
 }
+	
+table{
+	display: relative;
+	width: 630px;
+	font-size: 1rem;
+}
 
 #works{
 		white-space: nowrap;
