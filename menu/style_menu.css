@@ -256,11 +256,13 @@ a:hover{
 #works{
 		white-space: nowrap;
 	text-overflow: ellipsis;
+	font-size: 1rem;
 }
 
 #about,
 #contact{
 	max-width: 80vw;
+	font-size: 1rem;
 }
 
 
