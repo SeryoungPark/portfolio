@@ -246,6 +246,12 @@ a:hover{
 .section:not(:target){
 	display: none;
 }
+	
+table{
+	display: relative;
+	width: 630px;
+	font-size: 17px;
+}
 
 
 .year,
